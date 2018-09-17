@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     @RequestMapping("/")
-    private String index(){
+    public String index(){
         return "Hello Spring Boot!";
     }
     @RequestMapping("/hello")
-    private String hello(){
+    public String hello(){
         return "Hello World!";
     }
 }
