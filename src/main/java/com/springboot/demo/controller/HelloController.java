@@ -11,8 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
+
     @RequestMapping("/")
-    public String i123123(){
+    public String index(){
+        String aaa="1";
 //    public String a_111(){
         return "Hello Spring Boot!";
     }
